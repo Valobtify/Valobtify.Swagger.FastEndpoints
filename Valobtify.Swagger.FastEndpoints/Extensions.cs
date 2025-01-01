@@ -49,7 +49,7 @@ public static class Extensions
             });
     }
 
-    public class SingleValueObjectTemplate :
+    internal class SingleValueObjectTemplate :
         SingleValueObject<SingleValueObjectTemplate, string>,
         ICreatableValueObject<SingleValueObjectTemplate, string>
     {
