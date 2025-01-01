@@ -1,0 +1,1 @@
+Valogtify.Swagger.FastEndpoints
