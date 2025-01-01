@@ -8,7 +8,7 @@ namespace Valobtify.Swagger.FastEndpoints;
 
 public static class Extensions
 {
-    public static IEnumerable<Type> GetSingleValueObjectTypes(this Assembly assembly)
+    internal static IEnumerable<Type> GetSingleValueObjectTypes(this Assembly assembly)
     {
         var baseType = typeof(SingleValueObject<,>);
 
